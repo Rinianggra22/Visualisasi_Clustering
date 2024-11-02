@@ -120,10 +120,10 @@ data_PCA['cluster'] = label
 data_baru['cluster'] = label
 real_data['cluster'] = label
 
-# Evaluate using Silhouette Score
-silhouette_avg = silhouette_score(data_baru, data_baru['cluster'])
-st.title("Silhouette Score")
-st.write(silhouette_avg)
+# # Evaluate using Silhouette Score
+# silhouette_avg = silhouette_score(data_baru, data_baru['cluster'])
+# st.title("Silhouette Score")
+# st.write(silhouette_avg)
 
 fig = plt.figure(figsize=(10,8))
 ax = plt.subplot(111, projection='3d', label="bla")
